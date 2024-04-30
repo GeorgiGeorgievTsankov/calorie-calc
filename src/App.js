@@ -1,10 +1,20 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HomeView } from './Routes/Home/HomeView';
+import { CalculateView } from './Routes/Calculate/CalculateView';
+import  RecipesView  from './Components/Recipes/RecipesView';
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>HI GEORGI</h1>
-    </div>
+    <Router>
+    {/* <NavbarComponent /> */}
+    <Routes>
+      <Route path="/" element={<HomeView />} /> 
+      <Route path="/calculate" element={<CalculateView />} />
+      <Route path="/recipes" element={<RecipesView />} />
+    </Routes>
+   
+  </Router>
   );
 }
 
