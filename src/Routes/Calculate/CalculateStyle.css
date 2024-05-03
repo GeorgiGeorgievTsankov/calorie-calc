@@ -1,0 +1,25 @@
+.container-calculate {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 100px;
+  }
+  
+  .item {
+    flex: 1;
+    padding: 10px;
+   
+  }
+  
+  /* Медийна заявка за промяна на оформлението при тясен екран */
+  @media screen and (max-width: 763px) {
+    .container-calculate {
+      flex-direction: column;
+      padding: 0px;
+    }
+
+    
+  }
+  

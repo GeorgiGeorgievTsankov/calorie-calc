@@ -1,0 +1,110 @@
+.uchebni-celi{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    text-align: center;
+}
+
+
+.home-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.cviat {
+    width: calc(45% - 10px);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: justify;
+    
+}
+
+.cviat h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* .cviat:nth-child(odd) {  
+   
+    
+}
+
+.cviat:nth-child(even) {
+   
+}  */
+/* Attachment-Box */
+.attachment {
+    width: 100%;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.2) url(../../Components/Assets/attachment-food.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attachment-text h1{
+    color: white;
+}
+
+
+ @media (max-width: 763px) {
+    .home-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cviat {
+      width: 100%;
+    }
+  } 
+
+
+
+
+
+
+/* 
+.home-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .cviat {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cviat:nth-child(odd) {
+    background-color: #ffff00;
+  }
+  
+  .cviat:nth-child(even) {
+    background-color: #ff0000; 
+  }
+  
+ 
+  
+  
+  @media (max-width: 763px) {
+    .home-container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  } */
+  
