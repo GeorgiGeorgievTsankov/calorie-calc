@@ -30,7 +30,8 @@ const APIRequestComponent = () => {
                 setRecipes(data);
 
             } catch (error) {
-                setError(error);
+                // setError(error);
+                console.error('Error fetching data:', error);
             }
         };
 
