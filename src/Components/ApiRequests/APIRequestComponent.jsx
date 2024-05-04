@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const APIRequestComponent = () => {
     const [recipes, setRecipes] = useState([]);
-    const [error, setError] = useState(null);
+    // const [error, setError] = useState(null);
 
     useEffect(() => {
         // const url = 'https://food-recipes-with-images.p.rapidapi.com/?q=chicken%20soup';
